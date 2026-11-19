@@ -49,10 +49,10 @@ new_sqlite_classes = ["MailHub"]
 #ai_model = "" # AI model; defaults to @cf/meta/llama-3.1-8b-instruct-fast
 #analysis_cache = false # Enable analytics cache
 #orm_log = false # SQL logging
-#domain = [] # Mail domains; multiple allowed, e.g. ["example1.com","example2.com"]
-#admin = "" # Admin email, e.g. admin@example.com
+domain = ["tiantiansang.ccwu.cc"] # Mail domains; multiple allowed, e.g. ["example1.com","example2.com"]
+admin = "admin@tiantiansang.ccwu.cc" # Admin email, e.g. admin@example.com
 #password = "" # Admin password; used on init if the admin user does not exist
-#jwt_secret = "" # JWT secret; any random string
+jwt_secret = "TtCloudMail2026Jwt7K9Q2mX4vR8s" # JWT secret; any random string
 
 [build]
 command = "pnpm --prefix ../mail-vue install && pnpm --prefix ../mail-vue run build"
